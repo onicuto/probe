@@ -1,0 +1,47 @@
+.block {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 11px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .block {
+        margin: 0;
+    }
+
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account__balance-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+}
+
+.account__balance-value {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.account__statistics {
+    background-image: url('/img/statistics.png');
+    background-size: cover;
+    width: 165px;
+    height: 165px
+}
+
+@media screen and (max-width: 800px) {
+    .account__statistics {
+        width: 75px;
+        height: 75px;
+    }
+}

@@ -1,0 +1,87 @@
+@media screen and (max-width: 800px) {
+  .block {
+    margin: 0;
+  }
+
+}
+.history__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.history__filter {
+  display: inline-block;
+  background-color: #D9D9D9;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.history__filter-date {
+  display: block;
+  font-size: 12px;
+  color: #919191;
+  margin: 3px 0;
+}
+
+.history__records {
+  margin-top: 10px;
+}
+
+.history__record-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history__record-amount {
+  color: #000000;
+  display: inline-block;
+  text-align: right;
+}
+
+.history__record {
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0 0 0;
+}
+
+.history__record-category {
+  color: #000000;
+  display: block;
+  padding: 5px 0 0 0;
+}
+
+.block {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 11px;
+  margin: 10px;
+}
+form > label,fieldset,legend {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 10px;
+  margin-top: 16px;
+}
+
+form > input,select,legend,textarea {
+  margin-top: 7px;
+}
+
+form > input, select, textarea {
+  width: 100%;;
+  padding: 10px;
+  border: none;
+  background-color:#E3E3E3;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+form > fieldset {
+  border: none;
+  padding: 0;
+}

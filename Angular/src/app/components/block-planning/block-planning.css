@@ -1,0 +1,98 @@
+.block {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 11px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .block {
+    margin: 0;
+  }
+
+}
+
+.planning__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.planning__table {
+  width: 100%;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 22px 0 0 0 ;
+
+  border-spacing: 0px;
+}
+
+.planning__table-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.planning__table tr td {
+  border: none;
+  padding: 3px;
+}
+
+.planning__table tr:nth-child(odd) {
+  background-color: #f9f9f9; /* например, светлый фон */
+}
+
+.planning__table tr:nth-child(even) {
+  background-color: #eaeaea; /* чуть темнее */
+}
+
+
+.planning__edit {
+  margin-top: 20px;
+}
+form > label,fieldset,legend {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 10px;
+  margin-top: 16px;
+}
+
+form > input,select,legend,textarea {
+  margin-top: 7px;
+}
+
+form > input, select, textarea {
+  width: 100%;;
+  padding: 10px;
+  border: none;
+  background-color:#E3E3E3;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+form > fieldset {
+  border: none;
+  padding: 0;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  margin-top: 11px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+}

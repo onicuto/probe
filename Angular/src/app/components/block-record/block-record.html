@@ -1,0 +1,28 @@
+<div class="block record">
+  <span class="record__title">Запись</span>
+  <form action="">
+    <label for="summ">Сумма</label>
+    <input type="number">
+    <label for="category">Категория</label>
+    <select>
+      <option value="food">Еда</option>
+      <option value="transport">Транспорт</option>
+    </select>
+    <fieldset>
+      <legend>Тип</legend>
+      <div class="record__radio-input">
+        <input name="type" type="radio" value="topping" checked>
+        <label for="type">Пополнение</label>
+      </div>
+      <div class="record__radio-input">
+        <input name="type" type="radio" value="debiting" checked>
+        <label for="type">Списание</label>
+      </div>
+    </fieldset>
+    <label for="date">Дата</label>
+    <input type="date">
+    <label for="description">Описание</label>
+    <textarea name="description"></textarea>
+    <button type="submit">Добавить</button>
+  </form>
+</div>
